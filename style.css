@@ -1,0 +1,197 @@
+.container{
+    max-width: 1200px;
+    height: 90rem;
+    display: flex;
+      align-items: center;
+    flex-direction: column;
+    justify-content: center;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+  
+  .courses-content h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+  }
+  
+  .courses-content p {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+  }
+  .image-container{
+      display: flex;
+      flex: auto;
+      align-items: center;
+      justify-content: center;
+      gap: 20px !important;
+      
+  }
+  
+  .image-container .image{
+      width: auto;
+      height: 230px;
+      object-fit: cover;
+  }
+  .slider-header{
+    position: relative;
+    
+  }
+  .horaire{
+    position: absolute;
+    display: flex;
+    gap: 15px;
+    bottom: 0;
+    left: 20px;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+  }
+  .section-btns{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+  }
+  
+  .section-btns .navigation-btns{
+    align-self: center;
+    user-select: none;
+  }
+  .section-btns .navigation-btns i{
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: rgb(184, 178, 178);
+    color: #f9f9f9;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    user-select: none;
+  }
+  .section-btns .navigation-btns i:hover{
+    background-color: #666;
+  }
+  .section-btns .navigation-btns i:nth-child(1){
+    margin-right: 5px;
+  }
+  
+  .container .slider{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    /* height: 250px; */
+    margin-top: 3.8rem;
+    height: 580px;
+    gap: 20px;
+
+  
+  }
+  .slider .slider-item{
+    
+    flex: 0 0 calc((100% - 40px) / 3); 
+    max-width: calc((100% - 40px) / 3); 
+    transition: transform 0.5s ease;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border-radius: 15px;
+      padding: 0px;
+      /* padding-bottom: 20px; */
+    overflow: hidden;
+      background-color: transparent;
+  }
+  .slider-item:nth-child(1){
+    left: calc(-350px + -20px);
+  }
+  .slider-item:nth-child(2){
+    left: 0;
+  }
+  .slider-item:nth-child(3){
+    left: calc(350px + 20px);
+  }
+  .slider-item:nth-child(4){
+    left: calc((350px + 20px) * 2);
+  }
+  .slider-item:nth-child(5){
+    left: calc((350px + 20px) * 3);
+  }
+  .slider-item:nth-child(6){
+    left: calc((350px + 20px) * 4);
+  }
+  .slider-item:nth-child(7){
+    left: calc((350px + 20px) * 5);
+  }
+  .slider-item:nth-child(8){
+    left: calc((350px + 20px) * 6);
+  }
+  .slider-item img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+  
+  .paragraph_wrapper{
+    background-color: rgb(247, 247, 247);
+    padding: 20px;
+    margin-top: 40px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+  }
+  .paragraphe1{
+    display: flex;
+    text-align: start;
+    flex-direction: column;
+    padding: 10px 10px 20px 20px;
+    color: #000;
+    /* font-weight: bolder; */
+    
+    }
+    .paragraphe1 h3{
+        font-size: 2rem;
+        margin-bottom: 10px;
+        font-weight: light;
+    }
+    
+    .paragraphe2{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 10px 20px 20px;
+      margin-bottom: 20px;
+    }
+    .image-profil{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+    }
+  .paragraphe2 img{
+	  height: 30px;
+	  width: 30px;
+	  margin-right: 10px;
+	  border-radius: 50%;
+	  border: 3px solid transparent;
+  }
+  
+  .paragraphe2 .price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	  width: 60px;
+	  height: 30px;
+	  text-align: center;
+	  color: #fff;
+	  background-color: #4150B5;
+  }
+  .paragraphe2 .price1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	  width: 60px;
+	  height: 30px;
+	  text-align: center;
+	  color: #fff;
+	  background-color: #32CC93;
+  }
+/* Fin Section Cours ================================================== */

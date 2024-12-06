@@ -1,0 +1,14 @@
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .slider .slider-item {
+        flex: 0 0 calc((100% - 20px) / 2); 
+        max-width: calc((100% - 20px) / 2);
+    }
+}
+@media (max-width: 767px) {
+    .slider .slider-item {
+        flex: 0 0 100%; 
+        max-width: 100%;
+    }
+}
